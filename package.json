@@ -1,0 +1,17 @@
+{
+  "name": "meli-search-project",
+  "version": "1.0.0",
+  "description": "Product search/exhibition using Mercado Libre API",
+  "main": "index.js",
+  "scripts": {
+    "run:server": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilherme Pendezza de Sousa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
