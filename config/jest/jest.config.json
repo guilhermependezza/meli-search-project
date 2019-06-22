@@ -1,0 +1,14 @@
+{
+  "rootDir": "../../",
+  "verbose": true,
+  "coverageDirectory": "./test/coverage",
+  "coveragePathIgnorePatterns": [
+    "build",
+    "config",
+    "node_modules",
+    "test"
+  ],
+  "setupFiles": [
+    "<rootDir>/config/jest/jest.setup.js"
+  ]
+}
