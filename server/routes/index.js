@@ -2,8 +2,6 @@
 const express = require('express');
 const api = express.Router();
 
-api.get('/', (req, res) => {
-    res.json({ response: 'Initial route' })
-});
+api.use('/items/', require('./products/products-api'))
 
 module.exports = api;
