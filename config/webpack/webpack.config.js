@@ -1,4 +1,4 @@
-const port = 9090;
+const { port } = require('../../constants/client');
 
 const HtmlPlugin = require('html-webpack-plugin');
 const path = require('path');
