@@ -1,6 +1,8 @@
 const { port } = require('../../constants/client');
 
 const HtmlPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const autoprefixer = require('autoprefixer');
 const path = require('path');
 
 const sourcePath = path.resolve(process.cwd(), 'client/src');
@@ -34,16 +36,42 @@ const config = {
 
   module: {
     rules: [
-      {
-        test: /\.jsx?$/,
-        include: sourcePath,
-        use: [
-          'babel-loader'
-        ]
-      }
+        {
+            test: /\.jsx?$/,
+            include: sourcePath,
+            use: [
+                'babel-loader'
+            ]
+        },
+
+        // configure image loader
+        {
+            test: /\.(png|svg|jpg|gif)$/,
+            use: ['file-loader']
+        },
+
+        //configure sass loader
+        {
+            test: /\.scss$/,
+            use: [
+                {
+                    loader: MiniCssExtractPlugin.loader,
+                    options: { hmr: true },
+                },
+                'css-loader',
+                {
+                    loader: 'postcss-loader',
+                    options: { plugins: [autoprefixer] }
+                },
+                'sass-loader',
+            ],
+        }
     ]
   },
   plugins: [
+    new MiniCssExtractPlugin({
+        filename: '[name].[hash].css'
+    }),
     new HtmlPlugin({
       template: path.resolve(__dirname, `${sourcePath}/index.html`),
       minify: {
