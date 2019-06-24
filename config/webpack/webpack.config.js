@@ -44,6 +44,15 @@ const config = {
             ]
         },
 
+        // configure eslint
+        {
+            test: /\.jsx?$/,
+            enforce: 'pre',
+            include: sourcePath,
+            loader: 'eslint-loader',
+            options: { configFile: `${process.cwd()}/.eslintrc.json` }
+        },
+
         // configure image loader
         {
             test: /\.(png|svg|jpg|gif)$/,
