@@ -1,0 +1,28 @@
+.header {
+  background: #FFDB15;
+  padding: 15px 0;
+
+    .wrapper {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: center;
+    }
+
+    .logo-link {
+        display: block;
+        width: 150px;
+        height: 100%;
+        background: url('../../images/logo_large.png') no-repeat center center;
+        background-size: 100%;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 780px) {
+    .header .logo-link {
+        width: 55px;
+        background-image: url('~images/logo_small.png');
+    }
+}
