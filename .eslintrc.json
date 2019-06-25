@@ -34,6 +34,7 @@
           "components": [ "Link" ],
           "specialLink": [ "hrefLeft", "hrefRight" , "to"],
           "aspects": [ "noHref", "invalidHref", "preferButton" ]
-        }]
+        }],
+        "linebreak-style": ["off"]
       }
 }
