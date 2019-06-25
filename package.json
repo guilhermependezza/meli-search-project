@@ -6,6 +6,8 @@
   "scripts": {
     "run:server": "nodemon ./server/index.js",
     "run:client": "webpack-dev-server --config config/webpack/webpack.config.js",
+    "run:all": "npm run run:server & npm run run:client",
+    "start": "npm run run:all",
     "test:server": "jest ./server --config=./config/jest/jest.config.server.js"
   },
   "author": "Guilherme Pendezza de Sousa",
