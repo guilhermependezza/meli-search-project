@@ -1,13 +1,14 @@
+@import '~styles/mixins';
+
 .header {
   background: #FFDB15;
   padding: 15px 0;
 
     .wrapper {
+        @include flex-element;
         height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: center;
+        width: 95%;
+        max-width: 1000px;
     }
 
     .logo-link {
