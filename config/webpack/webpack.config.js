@@ -19,6 +19,12 @@ const config = {
     path: buildPath,
     publicPath: '/'
   },
+
+  alias: {
+    components: `${sourcePath}/components`,
+    styles: path.resolve(__dirname, `${sourcePath}/styles`)
+  },
+
   devServer: {
     contentBase: sourcePath,
     compress: true,
