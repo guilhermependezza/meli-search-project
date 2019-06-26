@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Header from '../header';
+import Header from 'component/header';
 
 export default function App() {
   return (
@@ -9,6 +9,5 @@ export default function App() {
         <Header />
       </BrowserRouter>
     </>
-
   );
 }
