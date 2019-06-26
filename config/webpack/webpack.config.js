@@ -11,7 +11,7 @@ const buildPath = path.resolve(process.cwd(), 'client');
 const config = {
   context: sourcePath,
   entry: {
-    app: ['babel-polyfill', 'index.jsx'],
+    app: ['babel-polyfill', 'index.jsx']
   },
   devtool: 'source-map',
   output: {
@@ -56,11 +56,10 @@ const config = {
         enforce: 'pre',
         include: sourcePath,
         loader: 'eslint-loader',
-        options: { 
+        options: {
           configFile: `${process.cwd()}/.eslintrc.json`,
           fix: true // autofix eslint errors
-        },
-            
+        }
       },
 
       // configure image loader
@@ -69,21 +68,21 @@ const config = {
         use: ['file-loader']
       },
 
-      //configure sass loader
+      // configure sass loader
       {
         test: /\.scss$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: { hmr: true },
+            options: { hmr: true }
           },
           'css-loader',
           {
             loader: 'postcss-loader',
             options: { plugins: [autoprefixer] }
           },
-          'sass-loader',
-        ],
+          'sass-loader'
+        ]
       }
     ]
   },
