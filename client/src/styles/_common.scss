@@ -1,0 +1,17 @@
+@import '~styles/mixins';
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.flex-wrapper {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
