@@ -11,7 +11,9 @@ export default function SearchBar() {
         className="input"
         placeholder="Do que você precisa?"
       />
-      <button className="button" type="submit">Buscar</button>
+      <button className="button" type="submit">
+        <img src="images/ic_Search.png" alt="Pesquisar" />
+      </button>
     </form>
   );
 }
