@@ -7,8 +7,6 @@
     .wrapper {
         @include flex-element;
         height: 40px;
-        width: 95%;
-        max-width: 1000px;
     }
 
     .logo-link {
