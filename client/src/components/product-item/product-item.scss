@@ -1,0 +1,22 @@
+@import '~styles/mixins';
+
+.product-item {
+    border: 1px solid #000;
+    border-top: none;
+    padding: 10px;
+    @include flex-element($justify-content: left);
+
+    .product-image {
+
+    }
+    
+    .product-price {
+        &::before {
+            content: '$ '
+        }
+    }
+    
+    .product-title {
+    
+    }
+}
