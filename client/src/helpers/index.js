@@ -10,3 +10,14 @@ export function queryStringToObject(search) {
       };
     }, {});
 }
+
+export function getSearchTermFromQueryString({ search }) {
+  if (!search) return false;
+
+  const parsedQuery = queryStringToObject(search);
+  const searchValue = parsedQuery.search;
+
+  if (!searchValue) return false;
+
+  return searchValue;
+}

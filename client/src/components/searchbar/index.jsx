@@ -1,18 +1,7 @@
 import React from 'react';
 import './searchbar.scss';
 
-import { queryStringToObject } from 'helpers';
-
-function getSearchTerm({ search }) {
-  if (!search) return false;
-
-  const parsedQuery = queryStringToObject(search);
-  const searchValue = parsedQuery.search;
-
-  if (!searchValue) return false;
-
-  return searchValue;
-}
+import { getSearchTermFromQueryString } from 'helpers';
 
 function SearchBar() {
   function onSubmit(e) {
@@ -22,7 +11,7 @@ function SearchBar() {
     }
   }
 
-  const searchTerm = getSearchTerm(window.location);
+  const searchTerm = getSearchTermFromQueryString(window.location);
 
   return (
     <form
