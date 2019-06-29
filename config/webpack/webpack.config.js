@@ -31,6 +31,7 @@ const config = {
     extensions: ['.js', '.jsx', '.scss'],
     alias: {
       components: `${sourcePath}/components`,
+      screens: `${sourcePath}/screens`,
       styles: path.resolve(__dirname, `${sourcePath}/styles`),
       helpers: path.resolve(__dirname, `${sourcePath}/helpers`),
       images: path.resolve(__dirname, `${sourcePath}/images`)
