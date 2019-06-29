@@ -1,0 +1,312 @@
+{
+    "author": {
+        "name": "Guilherme",
+        "lastname": "Sousa"
+    },
+    "item": {
+        "id": "MLA651772871",
+        "site_id": "MLA",
+        "title": "Silla Plastica  Gemplast Niños",
+        "subtitle": null,
+        "seller_id": 142578345,
+        "category_id": "MLA74619",
+        "official_store_id": null,
+        "price": 159,
+        "base_price": 159,
+        "original_price": null,
+        "currency_id": "ARS",
+        "initial_quantity": 20,
+        "available_quantity": 1,
+        "sold_quantity": 5,
+        "sale_terms": [],
+        "buying_mode": "buy_it_now",
+        "listing_type_id": "gold_special",
+        "start_time": "2017-01-27T15:29:44.000Z",
+        "stop_time": "2037-01-22T15:29:44.000Z",
+        "condition": "new",
+        "permalink": "https://articulo.mercadolibre.com.ar/MLA-651772871-silla-plastica-gemplast-ninos-_JM",
+        "thumbnail": "http://mla-s2-p.mlstatic.com/887660-MLA31042543025_062019-I.jpg",
+        "secure_thumbnail": "https://mla-s2-p.mlstatic.com/887660-MLA31042543025_062019-I.jpg",
+        "pictures": [
+            {
+                "id": "887660-MLA31042543025_062019",
+                "url": "http://mla-s2-p.mlstatic.com/887660-MLA31042543025_062019-O.jpg",
+                "secure_url": "https://mla-s2-p.mlstatic.com/887660-MLA31042543025_062019-O.jpg",
+                "size": "228x292",
+                "max_size": "228x292",
+                "quality": ""
+            },
+            {
+                "id": "874054-MLA31042482913_062019",
+                "url": "http://mla-s2-p.mlstatic.com/874054-MLA31042482913_062019-O.jpg",
+                "secure_url": "https://mla-s2-p.mlstatic.com/874054-MLA31042482913_062019-O.jpg",
+                "size": "466x500",
+                "max_size": "800x857",
+                "quality": ""
+            },
+            {
+                "id": "995686-MLA26119091951_102017",
+                "url": "http://mla-s2-p.mlstatic.com/995686-MLA26119091951_102017-O.jpg",
+                "secure_url": "https://mla-s2-p.mlstatic.com/995686-MLA26119091951_102017-O.jpg",
+                "size": "500x489",
+                "max_size": "800x783",
+                "quality": ""
+            },
+            {
+                "id": "949776-MLA26119102650_102017",
+                "url": "http://mla-s2-p.mlstatic.com/949776-MLA26119102650_102017-O.jpg",
+                "secure_url": "https://mla-s2-p.mlstatic.com/949776-MLA26119102650_102017-O.jpg",
+                "size": "500x492",
+                "max_size": "800x788",
+                "quality": ""
+            },
+            {
+                "id": "932062-MLA31042482895_062019",
+                "url": "http://mla-s2-p.mlstatic.com/932062-MLA31042482895_062019-O.jpg",
+                "secure_url": "https://mla-s2-p.mlstatic.com/932062-MLA31042482895_062019-O.jpg",
+                "size": "464x500",
+                "max_size": "800x861",
+                "quality": ""
+            }
+        ],
+        "video_id": null,
+        "descriptions": [
+            {
+                "id": "MLA651772871-1264068382"
+            }
+        ],
+        "accepts_mercadopago": true,
+        "non_mercado_pago_payment_methods": [],
+        "shipping": {
+            "mode": "me2",
+            "methods": [],
+            "tags": [],
+            "dimensions": null,
+            "local_pick_up": true,
+            "free_shipping": false,
+            "logistic_type": "drop_off",
+            "store_pick_up": false
+        },
+        "international_delivery_mode": "none",
+        "seller_address": {
+            "city": {
+                "name": "Loma Hermosa"
+            },
+            "state": {
+                "id": "AR-B",
+                "name": "Buenos Aires"
+            },
+            "country": {
+                "id": "AR",
+                "name": "Argentina"
+            },
+            "search_location": {
+                "neighborhood": {
+                    "id": "TUxBQkxPTTI0NTg1MA",
+                    "name": "Loma Hermosa"
+                },
+                "city": {
+                    "id": "TUxBQ1RSRTMxODE5NA",
+                    "name": "Tres de febrero"
+                },
+                "state": {
+                    "id": "TUxBUEdSQWVmNTVm",
+                    "name": "Bs.As. G.B.A. Oeste"
+                }
+            },
+            "latitude": -34.56765,
+            "longitude": -58.613792,
+            "id": 107047667
+        },
+        "seller_contact": null,
+        "location": {},
+        "geolocation": {
+            "latitude": -34.56765,
+            "longitude": -58.613792
+        },
+        "coverage_areas": [],
+        "attributes": [
+            {
+                "id": "BRAND",
+                "name": "Marca",
+                "value_id": "4219213",
+                "value_name": "Gemplast",
+                "value_struct": null,
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "CHAIR_TYPE",
+                "name": "Tipo de silla",
+                "value_id": null,
+                "value_name": "Niño",
+                "value_struct": null,
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "DEPTH",
+                "name": "Profundidad",
+                "value_id": "-1",
+                "value_name": null,
+                "value_struct": null,
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "HEIGHT",
+                "name": "Altura",
+                "value_id": null,
+                "value_name": "50 cm",
+                "value_struct": {
+                    "number": 50,
+                    "unit": "cm"
+                },
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "IS_FOLDABLE",
+                "name": "Es plegable",
+                "value_id": "242084",
+                "value_name": "No",
+                "value_struct": null,
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "ITEM_CONDITION",
+                "name": "Condición del ítem",
+                "value_id": "2230284",
+                "value_name": "Nuevo",
+                "value_struct": null,
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "LEGS_MATERIAL",
+                "name": "Material de las patas",
+                "value_id": "973765",
+                "value_name": "Plástico",
+                "value_struct": null,
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "LENGTH",
+                "name": "Largo",
+                "value_id": null,
+                "value_name": "28 cm",
+                "value_struct": {
+                    "number": 28,
+                    "unit": "cm"
+                },
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "MANUFACTURER",
+                "name": "Fabricante",
+                "value_id": null,
+                "value_name": "Gemplast",
+                "value_struct": null,
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "MODEL",
+                "name": "Modelo",
+                "value_id": null,
+                "value_name": "Niños",
+                "value_struct": null,
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "STRUCTURE_MATERIAL",
+                "name": "Material de la estructura",
+                "value_id": "2748302",
+                "value_name": "Plástico",
+                "value_struct": null,
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "TOTAL_HEIGHT",
+                "name": "Altura total",
+                "value_id": null,
+                "value_name": "50 cm",
+                "value_struct": {
+                    "number": 50,
+                    "unit": "cm"
+                },
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            },
+            {
+                "id": "WIDTH",
+                "name": "Ancho",
+                "value_id": null,
+                "value_name": "35 cm",
+                "value_struct": {
+                    "number": 35,
+                    "unit": "cm"
+                },
+                "attribute_group_id": "OTHERS",
+                "attribute_group_name": "Otros"
+            }
+        ],
+        "warnings": [],
+        "listing_source": "",
+        "variations": [
+            {
+                "id": 30765330672,
+                "price": 159,
+                "attribute_combinations": [
+                    {
+                        "id": "COLOR",
+                        "name": "Color",
+                        "value_id": "52021",
+                        "value_name": "Celeste",
+                        "value_struct": null
+                    },
+                    {
+                        "id": "PATTERN_NAME",
+                        "name": "Nombre del diseño",
+                        "value_id": null,
+                        "value_name": "Undefined",
+                        "value_struct": null
+                    }
+                ],
+                "available_quantity": 1,
+                "sold_quantity": 5,
+                "sale_terms": [],
+                "picture_ids": [
+                    "887660-MLA31042543025_062019",
+                    "874054-MLA31042482913_062019",
+                    "995686-MLA26119091951_102017",
+                    "949776-MLA26119102650_102017",
+                    "932062-MLA31042482895_062019"
+                ],
+                "catalog_product_id": null
+            }
+        ],
+        "status": "active",
+        "sub_status": [],
+        "tags": [
+            "poor_quality_picture",
+            "immediate_payment",
+            "cart_eligible"
+        ],
+        "warranty": null,
+        "catalog_product_id": null,
+        "domain_id": "MLA-GARDEN_CHAIRS",
+        "parent_item_id": null,
+        "differential_pricing": null,
+        "deal_ids": [],
+        "automatic_relist": false,
+        "date_created": "2017-01-27T15:29:45.000Z",
+        "last_updated": "2019-06-18T12:23:42.000Z",
+        "health": 0.6
+    }
+}
