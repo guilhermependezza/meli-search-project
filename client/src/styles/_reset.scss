@@ -23,6 +23,11 @@ article, aside, figcaption, figure,
 footer, header, menu, nav, section {
 	display: block;
 }
+
+html {
+    background: #F5F5F5;
+}
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: Helvetica;
 }
