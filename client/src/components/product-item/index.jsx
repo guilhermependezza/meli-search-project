@@ -3,11 +3,19 @@ import PropTypes from 'prop-types';
 import './product-item.scss';
 
 function ProductItem({ productData }) {
+  const isFreeShipping = productData.shipping.free_shipping;
   return (
     <div className="product-item" key={productData.id}>
       <img className="product-image" src={productData.thumbnail} alt={productData.title} />
-      <div>
-        <p className="product-price">{productData.price}</p>
+      <div className="product-data">
+        <p className="product-price">
+          {productData.price}
+          { isFreeShipping
+            ? <img className="free-shipping" src="/images/ic_shipping.png" alt="Frete Grátis" />
+            : null
+            }
+        </p>
+        <p className="seller-location">{productData.address.state_name}</p>
         <p className="product-title">{productData.title}</p>
       </div>
     </div>
@@ -18,6 +26,8 @@ ProductItem.propTypes = {
   productData: PropTypes.shape({
     id: PropTypes.string,
     thumbnail: PropTypes.string,
+    address: PropTypes.object,
+    shipping: PropTypes.object,
     price: PropTypes.number,
     title: PropTypes.string
   }).isRequired
