@@ -1,13 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import ProductItem from 'components/product-item';
 import './product-list.scss';
 
-import productItemsMock from '../../mocks/product-list.json';
-
-export default function ProductList() {
+function ProductList({ searchResults }) {
   return (
     <div className="product-list">
-      {productItemsMock.items.map(i => <ProductItem productData={i} />)}
+      {searchResults.items.map(i => <ProductItem productData={i} />)}
     </div>
   );
 }
+
+ProductList.propTypes = {
+  searchResults: PropTypes.shape({
+    items: PropTypes.array
+  }).isRequired
+};
+
+export default ProductList;
