@@ -5,13 +5,17 @@
     border-top: none;
     padding: 16px;
     width: 100%;
-    @include flex-element($justify-content: left);
+    
+    .product-link {
+        @include flex-element($justify-content: left);
+        color: #000;
+    }
 
     .product-data {
         width: 100%;
     }
 
-    .seller-location {
+    .seller-location { 
         font-size: 12px;
         line-height: 16px;
         text-align: right;
