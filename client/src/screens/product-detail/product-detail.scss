@@ -1,7 +1,8 @@
 @import '~styles/mixins';
+@import '~styles/colors';
 
 .product-detail {
-    background: #fff;
+    background: $white;
     padding: 30px;
 }
 
@@ -49,8 +50,8 @@
     }
     button {
         width: 100%;
-        background: #3483FA;
-        color: white;
+        background: $blue;
+        color: $white;
         border: none;
 
         font-size: 22px;
@@ -69,7 +70,7 @@
         font-size: 14px;
     }
 
-    border-top: #F5F5F5 1px solid;
+    border-top: $light-gray 1px solid;
     padding-top: 10px;
 }
 

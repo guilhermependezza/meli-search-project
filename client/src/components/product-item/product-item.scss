@@ -1,14 +1,15 @@
 @import '~styles/mixins';
+@import '~styles/colors';
 
 .product-item {
-    background: #fff;
+    background: $white;
     border-top: none;
     padding: 16px;
     width: 100%;
     
     .product-link {
         @include flex-element($justify-content: left);
-        color: #000;
+        color: $black;
     }
 
     .product-data {
