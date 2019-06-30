@@ -2,7 +2,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import ProductDetail from 'components/product-detail';
+import ProductDetail from 'screens/product-detail';
 import ProductSearch from 'screens/product-search';
 
 function Content() {
