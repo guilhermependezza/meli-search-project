@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width: 780px) {
+@include mobile {
     .header .logo-link {
         width: 55px;
         background-image: url('~images/logo_small.png');
