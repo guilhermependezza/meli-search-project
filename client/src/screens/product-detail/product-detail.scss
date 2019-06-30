@@ -72,3 +72,15 @@
     border-top: #F5F5F5 1px solid;
     padding-top: 10px;
 }
+
+@include mobile {
+    .product-detail-banner {
+        @include flex-element(
+            $flex-direction: column
+        );
+
+        .product-data {
+            margin: 0;
+        }
+    }
+}
