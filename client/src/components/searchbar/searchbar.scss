@@ -1,24 +1,25 @@
 @import '~styles/colors';
 @import '~styles/sizes';
+@import '~styles/layout';
 
 .searchbar {
   width: 100%;
   height: 35px;
-  border-radius: 2px;
+  border-radius: $border-radius-size;
   overflow: hidden;
 
   .input {
     border: none;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: $top-bottom-left-round;
     width: 100%;
     height: 100%;
+    font-size: 18px;
     background: $light-gray;
     padding-left: $space-regular;
-    flex: 1;
   }
 
   .button {
-    border-radius: 0px 5px 5px 0px;
+    border-radius: $top-bottom-right-round;
     border: none;
     height: 100%;
     padding: 10px;
