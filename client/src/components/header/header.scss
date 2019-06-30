@@ -1,9 +1,10 @@
 @import '~styles/mixins';
 @import '~styles/colors';
+@import '~styles/sizes';
 
 .header {
   background: $yellow;
-  padding: 15px 0;
+  padding: $space-regular 0;
 
     .wrapper {
         @include flex-element;
@@ -16,7 +17,7 @@
         height: 100%;
         background: url('~images/logo_large.png') no-repeat center center;
         background-size: 100%;
-        margin-right: 15px;
+        margin-right: $space-regular;
     }
 }
 

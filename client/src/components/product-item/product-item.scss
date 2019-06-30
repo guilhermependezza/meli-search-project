@@ -1,10 +1,11 @@
 @import '~styles/mixins';
 @import '~styles/colors';
+@import '~styles/sizes';
 
 .product-item {
     background: $white;
     border-top: none;
-    padding: 16px;
+    padding: $space-regular;
     width: 100%;
     
     .product-link {
@@ -18,7 +19,7 @@
 
     .seller-location { 
         font-size: 12px;
-        line-height: 16px;
+        line-height: $space-regular;
         text-align: right;
     }
 

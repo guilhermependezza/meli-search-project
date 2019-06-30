@@ -1,5 +1,5 @@
-
 @import '~styles/colors';
+@import '~styles/sizes';
 
 .searchbar {
   width: 100%;
@@ -13,7 +13,7 @@
     width: 100%;
     height: 100%;
     background: $light-gray;
-    padding-left: 15px;
+    padding-left: $space-regular;
     flex: 1;
   }
 

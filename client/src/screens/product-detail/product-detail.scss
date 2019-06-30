@@ -1,5 +1,6 @@
 @import '~styles/mixins';
 @import '~styles/colors';
+@import '~styles/sizes';
 
 .product-detail {
     background: $white;
@@ -34,17 +35,17 @@
         .product-title {
             font-size: 22px;
             font-weight: bold;
-            margin-bottom: 16px;
+            margin-bottom: $space-regular;
         }
 
         .product-quantity {
             font-size: 18px;
-            margin-bottom: 16px;
+            margin-bottom: $space-regular;
         }
 
         .product-price {
             font-size: 40px;
-            margin-bottom: 16px;
+            margin-bottom: $space-regular;
         }   
 
     }
@@ -56,14 +57,14 @@
 
         font-size: 22px;
         border-radius: 2px;
-        padding: 15px 0px;
+        padding: $space-regular 0px;
     }
 }
 
 .product-detail-description {
     .description-header {
         font-size: 22px;
-        margin-bottom: 16px;
+        margin-bottom: $space-regular;
     }
 
     .description-text {
