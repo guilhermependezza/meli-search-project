@@ -32,6 +32,7 @@ const config = {
     alias: {
       components: `${sourcePath}/components`,
       screens: `${sourcePath}/screens`,
+      services: `${sourcePath}/services`,
       styles: path.resolve(__dirname, `${sourcePath}/styles`),
       helpers: path.resolve(__dirname, `${sourcePath}/helpers`),
       images: path.resolve(__dirname, `${sourcePath}/images`)
