@@ -7,7 +7,10 @@ import './product-list.scss';
 function ProductList({ searchResults }) {
   return (
     <div className="product-list">
-      {searchResults.items.map(i => <ProductItem productData={i} />)}
+      {
+        searchResults
+          .items.map(i => <ProductItem productData={i} key={i.id} />)
+      }
     </div>
   );
 }

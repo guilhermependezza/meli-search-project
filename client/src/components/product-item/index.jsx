@@ -6,7 +6,7 @@ import './product-item.scss';
 function ProductItem({ productData }) {
   const isFreeShipping = productData.shipping.free_shipping;
   return (
-    <div className="product-item" key={productData.id}>
+    <div className="product-item">
       <Link to={`/items/${productData.id}`} className="product-link">
         <img className="product-image" src={productData.thumbnail} alt={productData.title} />
         <div className="product-data">
