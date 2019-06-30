@@ -1,11 +1,11 @@
 const { search, searchById, getDescriptionById } = require('../products-service');
-const { productId, productTitle, descriptionFields} = require('../mocks/product');
-  
+const { productId, productTitle, descriptionFields } = require('../mocks/product');
+
 function assertAuthor(response) {
   expect(response.author.name).toBe('Guilherme');
   expect(response.author.lastname).toBe('Pendezza');
-};
-  
+}
+
 describe('Products Service', () => {
   describe('search', () => {
     it('should search products by a given query', async () => {
