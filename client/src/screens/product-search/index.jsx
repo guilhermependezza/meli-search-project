@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ProductList from 'components/product-list';
 import { getSearchTermFromQueryString } from 'helpers';
-import fetchService from 'services/fetch-service';
+import { getSearchResults } from 'services/fetch-service';
 
 export default class ProductSearch extends Component {
   constructor(props) {
@@ -13,7 +13,7 @@ export default class ProductSearch extends Component {
   }
 
   componentDidMount() {
-    fetchService.getSearchResults(this.searchTerm)
+    getSearchResults(this.searchTerm)
       .then((searchResults) => {
         this.setState({ searchResults });
       });
