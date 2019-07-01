@@ -22,6 +22,9 @@ function buildResponseData({ responseBody, singleProduct = false, quantity }) {
   }
 
   responseData.items = responseBody.results.slice(0, quantity);
+  responseData.categories = responseBody.filters.length === 0
+    ? []
+    : responseBody.filters.map(f => f.values[0].name);
   return responseData;
 }
 
