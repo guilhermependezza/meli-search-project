@@ -10,7 +10,7 @@ function Content() {
     <div className="content">
       <div className="wrapper">
         <Switch>
-          <Route exact path="/items" component={ProductSearch} />
+          <Route exact path="/items/" component={ProductSearch} />
           <Route exact path="/items/:id" component={ProductDetail} />
         </Switch>
       </div>

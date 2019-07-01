@@ -15,6 +15,7 @@ function SearchBar() {
 
   return (
     <form
+      action="/items/"
       className="searchbar flex-wrapper align-center justify-center"
       onSubmit={onSubmit}
     >
