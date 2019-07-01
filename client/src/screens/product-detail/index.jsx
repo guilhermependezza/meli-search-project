@@ -27,11 +27,7 @@ class ProductDetail extends Component {
 
   render() {
     const { productDetail, productDescription } = this.state;
-    if (!productDetail) {
-      return (
-        <div>Loader</div>
-      );
-    }
+    if (!productDetail) return null;
 
     const { item } = productDetail;
     const { sold_quantity: sold, attributes } = item;

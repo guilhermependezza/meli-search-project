@@ -26,7 +26,7 @@ export default class ProductSearch extends Component {
         {
         searchResults
           ? <ProductList searchResults={searchResults} />
-          : <div>carregando</div> // extrair loader
+          : null
         }
       </div>
     );
