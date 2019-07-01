@@ -352,5 +352,6 @@
              "cart_eligible"
           ]
        }
-    ]
+    ],
+    "categories": ["The", "categories"]
  }
