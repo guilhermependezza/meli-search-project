@@ -7,6 +7,12 @@
     border-top: none;
     padding: $space-regular;
     width: 100%;
+
+    .product-image {
+        height: 180px;
+        width: 180px;
+        margin-right: $space-regular;
+    };
     
     .product-link {
         @include flex-element($justify-content: left);
@@ -28,15 +34,7 @@
         padding-left: 5px;
     }
     
-    .product-price {
-        font-size: 18px;
-
-        &::before {
-            content: '$ ';
-        }
-    }
-    
-    .product-title {
+    .product-price, .product-title {
         font-size: 18px;
     }
 }

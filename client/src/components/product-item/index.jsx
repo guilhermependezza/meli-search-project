@@ -11,7 +11,7 @@ function ProductItem({ productData }) {
         <img className="product-image" src={productData.thumbnail} alt={productData.title} />
         <div className="product-data">
           <p className="product-price">
-            {productData.price}
+            $ {productData.price}
             { isFreeShipping
               ? <img className="free-shipping" src="/images/ic_shipping.png" alt="Frete Grátis" />
               : null
