@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList should match snapshot 1`] = `
+<div
+  className="product-list"
+>
+  <div
+    className="product-item"
+  >
+    <a
+      className="product-link"
+      href="/items/MLA772565193"
+      onClick={[Function]}
+    >
+      <img
+        alt="Por Que A Vov Guardou A Calcinha Na Geladeira? : Max Wallac"
+        className="product-image"
+        src="http://mla-s2-p.mlstatic.com/947591-MLA29489378962_022019-I.jpg"
+      />
+      <div
+        className="product-data"
+      >
+        <p
+          className="product-price"
+        >
+          1661
+        </p>
+        <p
+          className="seller-location"
+        >
+          Capital Federal
+        </p>
+        <p
+          className="product-title"
+        >
+          Por Que A Vov Guardou A Calcinha Na Geladeira? : Max Wallac
+        </p>
+      </div>
+    </a>
+  </div>
+  <div
+    className="product-item"
+  >
+    <a
+      className="product-link"
+      href="/items/MLA675084756"
+      onClick={[Function]}
+    >
+      <img
+        alt="Abra O Coracao E Feche A Geladeira De Terkeurst Lysa"
+        className="product-image"
+        src="http://mla-s1-p.mlstatic.com/817189-MLA25767059581_072017-I.jpg"
+      />
+      <div
+        className="product-data"
+      >
+        <p
+          className="product-price"
+        >
+          1906.35
+          <img
+            alt="Frete Grátis"
+            className="free-shipping"
+            src="/images/ic_shipping.png"
+          />
+        </p>
+        <p
+          className="seller-location"
+        >
+          Capital Federal
+        </p>
+        <p
+          className="product-title"
+        >
+          Abra O Coracao E Feche A Geladeira De Terkeurst Lysa
+        </p>
+      </div>
+    </a>
+  </div>
+  <div
+    className="product-item"
+  >
+    <a
+      className="product-link"
+      href="/items/MLA678733059"
+      onClick={[Function]}
+    >
+      <img
+        alt="Que Tem Na Geladeira? O De Lobo Rita"
+        className="product-image"
+        src="http://mla-s2-p.mlstatic.com/875778-MLA25871467132_082017-I.jpg"
+      />
+      <div
+        className="product-data"
+      >
+        <p
+          className="product-price"
+        >
+          2521.95
+          <img
+            alt="Frete Grátis"
+            className="free-shipping"
+            src="/images/ic_shipping.png"
+          />
+        </p>
+        <p
+          className="seller-location"
+        >
+          Capital Federal
+        </p>
+        <p
+          className="product-title"
+        >
+          Que Tem Na Geladeira? O De Lobo Rita
+        </p>
+      </div>
+    </a>
+  </div>
+  <div
+    className="product-item"
+  >
+    <a
+      className="product-link"
+      href="/items/MLA679648904"
+      onClick={[Function]}
+    >
+      <img
+        alt="O Pinguim De Geladeira A Preguiça E A Energia Elétrica De Sé"
+        className="product-image"
+        src="http://mla-s1-p.mlstatic.com/723540-MLA25895346432_082017-I.jpg"
+      />
+      <div
+        className="product-data"
+      >
+        <p
+          className="product-price"
+        >
+          2051.52
+          <img
+            alt="Frete Grátis"
+            className="free-shipping"
+            src="/images/ic_shipping.png"
+          />
+        </p>
+        <p
+          className="seller-location"
+        >
+          Capital Federal
+        </p>
+        <p
+          className="product-title"
+        >
+          O Pinguim De Geladeira A Preguiça E A Energia Elétrica De Sé
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;
