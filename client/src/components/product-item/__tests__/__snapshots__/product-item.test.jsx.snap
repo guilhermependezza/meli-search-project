@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductItem should match snapshot 1`] = `
+<div
+  className="product-item"
+>
+  <a
+    className="product-link"
+    href="/items/MLA772565193"
+    onClick={[Function]}
+  >
+    <img
+      alt="Por Que A Vov Guardou A Calcinha Na Geladeira? : Max Wallac"
+      className="product-image"
+      src="http://mla-s2-p.mlstatic.com/947591-MLA29489378962_022019-I.jpg"
+    />
+    <div
+      className="product-data"
+    >
+      <p
+        className="product-price"
+      >
+        1661
+      </p>
+      <p
+        className="seller-location"
+      >
+        Capital Federal
+      </p>
+      <p
+        className="product-title"
+      >
+        Por Que A Vov Guardou A Calcinha Na Geladeira? : Max Wallac
+      </p>
+    </div>
+  </a>
+</div>
+`;
