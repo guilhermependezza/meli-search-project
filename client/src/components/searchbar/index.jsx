@@ -1,7 +1,7 @@
 import React from 'react';
 import './searchbar.scss';
 
-import { getSearchTermFromQueryString } from 'helpers';
+import { getSearchTermFromQueryString } from '../../helpers';
 
 function SearchBar() {
   function onSubmit(e) {
