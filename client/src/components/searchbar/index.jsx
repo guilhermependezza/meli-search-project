@@ -1,13 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { withRouter } from 'react-router-dom';
 import './searchbar.scss';
 
-import { getSearchTermFromQueryString } from '../../helpers';
+import { getSearchTermFromQueryString, isProductId } from '../../helpers';
 
-function SearchBar() {
+function SearchBar({ history }) {
   function onSubmit(e) {
     const { value } = e.target[0];
     if (!value) {
       e.preventDefault();
+    }
+
+    if (isProductId(value)) {
+      e.preventDefault();
+      const url = ('/items/', value);
+      history.push(url);
     }
   }
 
@@ -33,4 +41,10 @@ function SearchBar() {
   );
 }
 
-export default SearchBar;
+SearchBar.propTypes = {
+  history: PropTypes.shape({
+    push: PropTypes.func.isRequired
+  }).isRequired
+};
+
+export default withRouter(SearchBar);

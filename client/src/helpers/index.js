@@ -21,3 +21,8 @@ export function getSearchTermFromQueryString({ search }) {
 
   return searchValue;
 }
+
+export function isProductId(value) {
+  const productIdRegex = /MLA.{1,}/;
+  return productIdRegex.test(value);
+}
