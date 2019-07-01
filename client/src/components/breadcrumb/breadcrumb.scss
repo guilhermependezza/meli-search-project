@@ -1,0 +1,29 @@
+@import '~styles/colors';
+@import '~styles/sizes';
+
+.breadcrumb {
+    margin: $space-regular;
+    
+
+    .breadcrumb-item {
+        font-size: 14px;
+        color: $medium-gray;
+
+        &:before {
+            content: '>';
+            padding: 0 $space-regular;
+        }
+
+        &:first-of-type {
+            padding: 0;
+        }
+
+        &:first-of-type:before {
+            content: '';
+        }
+
+        &:last-of-type {
+            font-weight: bold;
+        }
+    }
+}
