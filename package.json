@@ -8,7 +8,10 @@
     "run:client": "webpack-dev-server --config config/webpack/webpack.config.js",
     "run:all": "npm run run:server & npm run run:client",
     "start": "npm run run:all",
-    "test:server": "jest ./server --config=./config/jest/jest.config.server.js"
+    "test": "npm run test:all",
+    "test:all": "npm run test:server & npm run test:client",
+    "test:client": "jest --watch ./client --config=./config/jest/jest.config.client.js",
+    "test:server": "jest --watch ./server --config=./config/jest/jest.config.server.js"
   },
   "author": "Guilherme Pendezza de Sousa",
   "license": "ISC",
@@ -17,9 +20,12 @@
     "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.6.0",
     "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "css-loader": "^3.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "express": "^4.17.1",
     "file-loader": "^4.0.0",
     "html-webpack-plugin": "^3.2.0",
@@ -37,14 +43,16 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
-    "babel-polyfill": "^6.26.0",
+    "babel-jest": "^24.8.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-loader": "^2.1.2",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.14.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^24.8.0",
+    "react-test-renderer": "^16.8.6",
     "webpack-cli": "^3.3.4"
   },
   "babel": {
