@@ -34,6 +34,10 @@ class ProductDetail extends Component {
     }
 
     const { item } = productDetail;
+    const { sold_quantity: sold, attributes } = item;
+    const itemCondition = attributes.filter(i => i.id === 'ITEM_CONDITION')[0];
+    console.log(sold, itemCondition);
+    const soldQuantityLabel = sold + (sold > 1 ? ' vendidos' : ' vendido');
 
     return (
       <div className="product-detail">
@@ -42,6 +46,7 @@ class ProductDetail extends Component {
             <img className="product-figure-img" src={item.pictures[0].url} alt="" />
           </figure>
           <div className="product-data">
+            <p className="product-condition">{`${itemCondition.value_name} - ${soldQuantityLabel}`}</p>
             <h1 className="product-title">{item.title}</h1>
             <p className="product-quantity">Quantidade: {item.available_quantity}</p>
             <p className="product-price">$ {item.price}</p>
