@@ -36,7 +36,6 @@ class ProductDetail extends Component {
     const { item } = productDetail;
     const { sold_quantity: sold, attributes } = item;
     const itemCondition = attributes.filter(i => i.id === 'ITEM_CONDITION')[0];
-    console.log(sold, itemCondition);
     const soldQuantityLabel = sold + (sold > 1 ? ' vendidos' : ' vendido');
 
     return (
