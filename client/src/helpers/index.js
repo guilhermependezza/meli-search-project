@@ -1,4 +1,4 @@
-export function queryStringToObject(search) {
+function queryStringToObject(search) {
   return search
     .replace('?', '')
     .split('&')
