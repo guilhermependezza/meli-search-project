@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="wrapper"
+  >
+    <a
+      className="logo-link"
+      href="/"
+      onClick={[Function]}
+    />
+    <form
+      className="searchbar flex-wrapper align-center justify-center"
+      onSubmit={[Function]}
+    >
+      <input
+        className="input"
+        defaultValue=""
+        name="search"
+        placeholder="Do que você precisa?"
+        type="text"
+      />
+      <button
+        className="button"
+        type="submit"
+      >
+        <img
+          alt="Pesquisar"
+          src="/images/ic_Search.png"
+        />
+      </button>
+    </form>
+  </div>
+</header>
+`;
