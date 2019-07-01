@@ -2,6 +2,7 @@
 
 exports[`Searchbar should match snapshot  1`] = `
 <form
+  action="/items/"
   className="searchbar flex-wrapper align-center justify-center"
   onSubmit={[Function]}
 >

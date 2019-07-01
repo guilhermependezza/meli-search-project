@@ -13,6 +13,7 @@ exports[`Header should match snapshot 1`] = `
       onClick={[Function]}
     />
     <form
+      action="/items/"
       className="searchbar flex-wrapper align-center justify-center"
       onSubmit={[Function]}
     >

@@ -20,6 +20,7 @@ exports[`ProductItem should match snapshot 1`] = `
       <p
         className="product-price"
       >
+        $ 
         1661
       </p>
       <p
